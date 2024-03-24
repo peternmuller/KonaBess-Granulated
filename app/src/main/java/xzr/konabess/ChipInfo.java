@@ -188,374 +188,214 @@ public class ChipInfo {
     }
 
     private static class rpmh_levels_kona {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_msmnile {
         private static final int RPMH_REGULATOR_LEVEL_OFFSET = 1;
-        public static final int[] levels = {
-                16 + RPMH_REGULATOR_LEVEL_OFFSET,
-                48 + RPMH_REGULATOR_LEVEL_OFFSET,
-                56 + RPMH_REGULATOR_LEVEL_OFFSET,
-                64 + RPMH_REGULATOR_LEVEL_OFFSET,
-                80 + RPMH_REGULATOR_LEVEL_OFFSET,
-                96 + RPMH_REGULATOR_LEVEL_OFFSET,
-                128 + RPMH_REGULATOR_LEVEL_OFFSET,
-                144 + RPMH_REGULATOR_LEVEL_OFFSET,
-                192 + RPMH_REGULATOR_LEVEL_OFFSET,
-                224 + RPMH_REGULATOR_LEVEL_OFFSET,
-                256 + RPMH_REGULATOR_LEVEL_OFFSET,
-                320 + RPMH_REGULATOR_LEVEL_OFFSET,
-                336 + RPMH_REGULATOR_LEVEL_OFFSET,
-                352 + RPMH_REGULATOR_LEVEL_OFFSET,
-                384 + RPMH_REGULATOR_LEVEL_OFFSET,
-                400 + RPMH_REGULATOR_LEVEL_OFFSET,
-                416 + RPMH_REGULATOR_LEVEL_OFFSET
-        };
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416];
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + RPMH_REGULATOR_LEVEL_OFFSET;
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_lahaina {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416, 432, 448, 464};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1",
-                "TURBO_L2",
-                "SUPER_TURBO",
-                "SUPER_TURBO_NO_CPR"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[464]; // 464 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_lahaina_singleBin {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_lito {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_lagoon {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_shima {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_yupik {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_waipio {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_cape {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_diwali {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_ukee {
-        public static final int[] levels = {16, 48, 56, 64, 80, 96, 128, 144, 192, 224, 256, 320,
-                336, 352, 384, 400, 416};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D1",
-                "LOW_SVS",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L1",
-                "NOM_L2",
-                "NOM_L3",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[416]; // 416 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_kalama {
-        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 80, 96, 128, 144, 192,
-                224, 256, 288, 320, 336, 384, 400, 416, 432, 448, 464, 480};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D2",
-                "LOW_SVS_D1",
-                "LOW_SVS_D0",
-                "LOW_SVS",
-                "LOW_SVS_P1",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L0",
-                "NOM_L1",
-                "NOM_L2",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1",
-                "TURBO_L2",
-                "TURBO_L3",
-                "SUPER_TURBO",
-                "SUPER_TURBO_NO_CPR"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[480]; // 480 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_pineapple {
-        public static final int[] levels = {16, 48, 52, 56, 60, 64, 72, 80, 96, 128, 144, 192,
-                224, 256, 288, 320, 336, 384, 400, 416, 432, 448, 464, 480};
-        public static final String[] level_str = {
-                "RETENTION",
-                "MIN_SVS",
-                "LOW_SVS_D2",
-                "LOW_SVS_D1",
-                "LOW_SVS_D0",
-                "LOW_SVS",
-                "LOW_SVS_P1",
-                "LOW_SVS_L1",
-                "LOW_SVS_L2",
-                "SVS",
-                "SVS_L0",
-                "SVS_L1",
-                "SVS_L2",
-                "NOM",
-                "NOM_L0",
-                "NOM_L1",
-                "NOM_L2",
-                "TURBO",
-                "TURBO_L0",
-                "TURBO_L1",
-                "TURBO_L2",
-                "TURBO_L3",
-                "SUPER_TURBO",
-                "SUPER_TURBO_NO_CPR"
-        };
+        public static final int[] levels;
+        public static final String[] level_str;
+
+        static {
+            levels = new int[480]; // 480 elements
+            level_str = new String[levels.length];
+
+            for (int i = 0; i < levels.length; i++) {
+                levels[i] = i + 1; // Start from 1
+                level_str[i] = String.valueOf(levels[i]);
+            }
+        }
     }
 
     private static class rpmh_levels_cliffs {
