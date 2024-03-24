@@ -198,6 +198,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -229,6 +284,70 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    case 431:
+                        level_str[i] = "432 - TURBO_L2";
+                        break;
+                    case 447:
+                        level_str[i] = "448 - SUPER_TURBO";
+                        break;
+                    case 463:
+                        level_str[i] = "464 - SUPER_TURBO_NO_CPR";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -244,6 +363,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -259,6 +433,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -274,6 +503,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -289,6 +573,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -304,6 +643,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -319,6 +713,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -334,6 +783,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -349,6 +853,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -364,6 +923,61 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 351:
+                        level_str[i] = "352 - NOM_L3";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -379,6 +993,82 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 51:
+                        level_str[i] = "52 - LOW_SVS_D2";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 59:
+                        level_str[i] = "60 - LOW_SVS_D0";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 71:
+                        level_str[i] = "72 - LOW_SVS_P1";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 287:
+                        level_str[i] = "288 - NOM_L0";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    case 431:
+                        level_str[i] = "432 - TURBO_L2";
+                        break;
+                    case 447:
+                        level_str[i] = "448 - TURBO_L3";
+                        break;
+                    case 463:
+                        level_str[i] = "464 - SUPER_TURBO";
+                        break;
+                    case 479:
+                        level_str[i] = "480 - SUPER_TURBO_NO_CPR";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
@@ -394,6 +1084,82 @@ public class ChipInfo {
             for (int i = 0; i < levels.length; i++) {
                 levels[i] = i + 1; // Start from 1
                 level_str[i] = String.valueOf(levels[i]);
+                switch (i) {
+                    case 15:
+                        level_str[i] = "16 - RETENTION";
+                        break;
+                    case 47:
+                        level_str[i] = "48 - MIN_SVS";
+                        break;
+                    case 51:
+                        level_str[i] = "52 - LOW_SVS_D2";
+                        break;
+                    case 55:
+                        level_str[i] = "56 - LOW_SVS_D1";
+                        break;
+                    case 59:
+                        level_str[i] = "60 - LOW_SVS_D0";
+                        break;
+                    case 63:
+                        level_str[i] = "64 - LOW_SVS";
+                        break;
+                    case 71:
+                        level_str[i] = "72 - LOW_SVS_P1";
+                        break;
+                    case 79:
+                        level_str[i] = "80 - LOW_SVS_L1";
+                        break;
+                    case 95:
+                        level_str[i] = "96 - LOW_SVS_L2";
+                        break;
+                    case 127:
+                        level_str[i] = "128 - SVS";
+                        break;
+                    case 143:
+                        level_str[i] = "144 - SVS_L0";
+                        break;
+                    case 191:
+                        level_str[i] = "192 - SVS_L1";
+                        break;
+                    case 223:
+                        level_str[i] = "224 - SVS_L2";
+                        break;
+                    case 255:
+                        level_str[i] = "256 - NOM";
+                        break;
+                    case 287:
+                        level_str[i] = "288 - NOM_L0";
+                        break;
+                    case 319:
+                        level_str[i] = "320 - NOM_L1";
+                        break;
+                    case 335:
+                        level_str[i] = "336 - NOM_L2";
+                        break;
+                    case 383:
+                        level_str[i] = "384 - TURBO";
+                        break;
+                    case 399:
+                        level_str[i] = "400 - TURBO_L0";
+                        break;
+                    case 415:
+                        level_str[i] = "416 - TURBO_L1";
+                        break;
+                    case 431:
+                        level_str[i] = "432 - TURBO_L2";
+                        break;
+                    case 447:
+                        level_str[i] = "448 - TURBO_L3";
+                        break;
+                    case 463:
+                        level_str[i] = "464 - SUPER_TURBO";
+                        break;
+                    case 479:
+                        level_str[i] = "480 - SUPER_TURBO_NO_CPR";
+                        break;
+                    default:
+                        break;
+                }
             }
         }
     }
