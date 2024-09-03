@@ -36,7 +36,7 @@ KonaBess GRANULATED is a straightforward application designed to customize GPU f
 
 In the [original KonaBess](https://github.com/libxzr/KonaBess), only Qualcomm's predefined steps can be set, which means that voltage tuning is restricted to a limited set of predefined levels, which are:
 
-`RETENTION`, `MIN_SVS`, `LOW_SVS_D1`, `LOW_SVS`, `LOW_SVS_L1`, `LOW_SVS_L2`, `SVS`, `SVS_L0`, `SVS_L1`, `SVS_L2`, `NOM, NOM_L1`, `NOM_L2`, `NOM_L3`, `TURBO`, `TURBO_L0`, `TURBO_L1`, `TURBO_L2`, `SUPER_TURBO`, `SUPER_TURBO_NO_CPR`
+`RETENTION`, `MIN_SVS`, `LOW_SVS_D1`, `LOW_SVS`, `LOW_SVS_L1`, `LOW_SVS_L2`, `SVS`, `SVS_L0`, `SVS_L1`, `SVS_L2`, `NOM`, `NOM_L1`, `NOM_L2`, `NOM_L3`, `TURBO`, `TURBO_L0`, `TURBO_L1`, `TURBO_L2`, `SUPER_TURBO`, `SUPER_TURBO_NO_CPR`
 
 KonaBess GRANULATED, on the other hand, breaks away from this limitation. It allows users to fine-tune voltages over a much wider and more precise spectrum, from 1 to 480. This is akin to making the voltage control more granular, hence the name "granulated."
 
