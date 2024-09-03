@@ -67,4 +67,4 @@ The extent of improvement varies, with some users reporting a 25% reduction in p
 
 ### Screenshots
 
-<img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss1.jpg" width="180" height="400"> <img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss2.jpg" width="180" height="400"> <img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss3.jpg" width="180" height="400">
+<img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss1.png" width="180" height="400"> <img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss2.png" width="180" height="400"> <img src="https://raw.githubusercontent.com/peternmuller/KonaBess-Granulated/master/screenshots/ss3.png" width="180" height="400">
