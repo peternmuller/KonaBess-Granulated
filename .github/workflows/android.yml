@@ -22,14 +22,14 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
-    - name: Build with Gradle
-      run: ./gradlew build
+    - name: Build Release with Gradle
+      run: ./gradlew assembleRelease --no-daemon
 
     - name: Sign app APK
       uses: kevin-david/zipalign-sign-android-release@v2.0.1
       id: sign_app
       with:
-        releaseDirectory: app/build/outputs/apk/debug
+        releaseDirectory: app/build/outputs/apk/release
         signingKeyBase64: ${{ secrets.KONABESS_KEYSTORE }}
         alias: ${{ secrets.KONABESS_ALIAS }}
         keyStorePassword: ${{ secrets.KONABESS_KEYSTORE_PASSWORD }}
