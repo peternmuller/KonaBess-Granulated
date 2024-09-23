@@ -163,20 +163,15 @@ public class MainActivity extends Activity {
                             (dialog, which) -> new AlertDialog.Builder(MainActivity.this)
                                     .setTitle(R.string.about)
                                     .setMessage(getResources().getString(R.string.author) + " " +
-                                            "xzr467706992 (LibXZR)\n" + getResources().getString(R.string.release_at) + " www.akr-developers.com\n")
+                                            "Peter Noël Muller (peternmuller)\n")
                                     .setPositiveButton(R.string.ok, null)
-                                    .setNegativeButton("Github",
+                                    .setNegativeButton("GitHub",
                                             (dialog1, which1) -> MainActivity.this.startActivity(new Intent() {{
                                                 setAction(Intent.ACTION_VIEW);
                                                 setData(Uri.parse("https://github" +
-                                                        ".com/xzr467706992/KonaBess"));
+                                                        ".com/peternmuller/KonaBess-Granulated"));
                                             }}))
-                                    .setNeutralButton(R.string.visit_akr,
-                                            (dialog1, which1) -> MainActivity.this.startActivity(new Intent() {{
-                                                setAction(Intent.ACTION_VIEW);
-                                                setData(Uri.parse("https://www.akr-developers" +
-                                                        ".com/d/441"));
-                                            }})).create().show())
+                                    .create().show())
                     .create().show());
         }
 
