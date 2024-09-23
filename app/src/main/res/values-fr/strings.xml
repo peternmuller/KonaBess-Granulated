@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KonaBess</string>
-    <string name="environ_setup_failed">Échec lors de la configuration de l'environnement</string>
-    <string name="storage_permission_failed">Impossible d'obtenir l'autorisation de stockage</string>
+    <string name="environ_setup_failed">Échec lors de la configuration de l\'environnement</string>
+    <string name="storage_permission_failed">Impossible d\'obtenir l\'autorisation de stockage</string>
     <string name="repack_and_flash">Recompresser et flasher la nouvelle image</string>
-    <string name="backup_old_image">Sauvegarder l'ancienne image</string>
-    <string name="will_backup_to">L'ancienne image sera extraite dans</string>
+    <string name="backup_old_image">Sauvegarder l\'ancienne image</string>
+    <string name="will_backup_to">L\'ancienne image sera extraite dans</string>
     <string name="ok">OK</string>
     <string name="cancel">Annuler</string>
     <string name="help">Aide</string>
@@ -19,18 +19,18 @@
     <string name="backuping_img">Sauvegarde en cours, veuillez patienter</string>
     <string name="failed_backup">Échec de la sauvegarde</string>
     <string name="backup_success">Terminé</string>
-    <string name="repacking">Recompression de l'image de démarrage, veuillez patienter</string>
+    <string name="repacking">Recompression de l\'image de démarrage, veuillez patienter</string>
     <string name="repack_failed">Échec lors de la recompression</string>
-    <string name="flashing_boot">Flashage de l'image de démarrage. Veuillez donner les permissions root et patienter.</string>
-    <string name="flashing_failed">Échec du flashage de l'image, veuillez vérifier les permissions root.</string>
+    <string name="flashing_boot">Flashage de l\'image de démarrage. Veuillez donner les permissions root et patienter.</string>
+    <string name="flashing_failed">Échec du flashage de l\'image, veuillez vérifier les permissions root.</string>
     <string name="reboot_complete_title">Redémarrer pour finaliser les modifications</string>
     <string name="reboot_complete_msg">Voulez-vous redémarrer votre appareil maintenant ?</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="failed_reboot">Échec lors de la tentative de redémarrage. Veuillez vérifier les permissions root.</string>
-    <string name="getting_image">Récupération de l'image de démarrage. Veuillez donner les permissions root et patienter.</string>
-    <string name="failed_get_boot">Échec lors de la récupération de l'image de démarrage. Veuillez vérifier les permissions root.</string>
-    <string name="unpacking">Décompression de l'image. Veuillez patienter.</string>
+    <string name="getting_image">Récupération de l\'image de démarrage. Veuillez donner les permissions root et patienter.</string>
+    <string name="failed_get_boot">Échec lors de la récupération de l\'image de démarrage. Veuillez vérifier les permissions root.</string>
+    <string name="unpacking">Décompression de l\'image. Veuillez patienter.</string>
     <string name="unpack_failed">Échec lors de la décompression</string>
     <string name="incompatible_device">Appareil incompatible</string>
     <string name="failed_checking_platform">Échec lors de la vérification de la plateforme</string>
@@ -40,10 +40,10 @@
     <string name="back">Retour</string>
     <string name="save">Enregistrer</string>
     <string name="save_success">Enregistré</string>
-    <string name="save_failed">Échec de l'enregistrement</string>
+    <string name="save_failed">Échec de l\'enregistrement</string>
     <string name="error_occur">Une erreur est survenue</string>
     <string name="edit">Modifier</string>
-    <string name="unable_add_more">Impossible d'ajouter plus de fréquences</string>
+    <string name="unable_add_more">Impossible d\'ajouter plus de fréquences</string>
     <string name="new_item">Nouveau</string>
     <string name="new_desc">Ajouter une nouvelle fréquence</string>
     <string name="new_desc_volt">Ajouter un nouveau niveau de tension</string>
@@ -56,7 +56,7 @@
     <string name="save_volt_table">Enregistrer la table de tensions GPU</string>
     <string name="freq">Fréquence</string>
     <string name="volt">Niveau de tension</string>
-    <string name="volt_freq_msg">Cela correspond à la fréquence correspondant à ce niveau de tension.\nL'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz sur la page précédente.\nSi vous ne savez pas combien de zéros ajouter, il est recommandé de ne modifier que les premiers chiffres du nombre.</string>
+    <string name="volt_freq_msg">Cela correspond à la fréquence correspondant à ce niveau de tension.\nL\'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz sur la page précédente.\nSi vous ne savez pas combien de zéros ajouter, il est recommandé de ne modifier que les premiers chiffres du nombre.</string>
     <string name="getting_volt">Récupération de la table de tensions GPU. Veuillez patienter.</string>
     <string name="getting_volt_failed">Échec lors de la récupération de la table de tensions</string>
     <string name="sdm865">Snapdragon 865</string>
@@ -69,11 +69,11 @@
     <string name="sdm855_singlebin">Snapdragon 855 (Android P)</string>
     <string name="sdm888_singlebin">Snapdragon 888 (ancien FW)</string>
     <string name="editvolt_msg">Cela correspond à la tension correspondant à cette fréquence. Vous pouvez spécifier le niveau de tension à utiliser pour cette fréquence.\nLa tension augmente de haut en bas.</string>
-    <string name="help_gpufreq_aio">C'est la fréquence d'horloge du GPU. Vous pouvez modifier les fréquences disponibles dans la table des fréquences en modifiant cette valeur.\nL'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz sur la page précédente.\nSi vous ne savez pas combien de zéros ajouter, il est recommandé de ne modifier que les premiers chiffres du nombre.</string>
-    <string name="help_gpufreq">C'est la fréquence d'horloge du GPU. Vous pouvez modifier les fréquences disponibles dans la table des fréquences en modifiant cette valeur.\nCependant, assurez-vous que la fréquence peut trouver la tension correspondante dans la table des tensions, sinon, il est impossible de démarrer le téléphone.\nL'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz dans le menu précédent. Si vous ne savez pas combien de zéros ajouter, il est recommandé de modifier uniquement les premiers chiffres du nombre.\n</string>
-    <string name="help_bus">Il s'agit probablement d'une configuration liée à la fréquence du bus mémoire correspondant à la fréquence du GPU. La valeur spécifie le niveau de fréquence.\nVeuillez ne pas modifier la valeur de manière excessive (au-delà du niveau donné par la fréquence maximale par défaut), ce qui pourrait entraîner une impossibilité de trouver le niveau spécifié et un échec de démarrage de l'appareil.</string>
-    <string name="help_acd">ACD pourrait signifier \"auto-calibrating dynamically adaptive clock distribution\". Il semble que cela soit lié à l'ajustement de la vitesse d'horloge. Je ne connais pas plus de détails.</string>
-    <string name="help_msg">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, pour l'overclocking et l'undervolting :
+    <string name="help_gpufreq_aio">C\'est la fréquence d\'horloge du GPU. Vous pouvez modifier les fréquences disponibles dans la table des fréquences en modifiant cette valeur.\nL\'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz sur la page précédente.\nSi vous ne savez pas combien de zéros ajouter, il est recommandé de ne modifier que les premiers chiffres du nombre.</string>
+    <string name="help_gpufreq">C\'est la fréquence d\'horloge du GPU. Vous pouvez modifier les fréquences disponibles dans la table des fréquences en modifiant cette valeur.\nCependant, assurez-vous que la fréquence peut trouver la tension correspondante dans la table des tensions, sinon, il est impossible de démarrer le téléphone.\nL\'unité de fréquence ici est le Hz. Il faut donc ajouter 6 zéros pour obtenir une fréquence en MHz. Vous pouvez consulter la fréquence en MHz dans le menu précédent. Si vous ne savez pas combien de zéros ajouter, il est recommandé de modifier uniquement les premiers chiffres du nombre.\n</string>
+    <string name="help_bus">Il s\'agit probablement d\'une configuration liée à la fréquence du bus mémoire correspondant à la fréquence du GPU. La valeur spécifie le niveau de fréquence.\nVeuillez ne pas modifier la valeur de manière excessive (au-delà du niveau donné par la fréquence maximale par défaut), ce qui pourrait entraîner une impossibilité de trouver le niveau spécifié et un échec de démarrage de l\'appareil.</string>
+    <string name="help_acd">ACD pourrait signifier \"auto-calibrating dynamically adaptive clock distribution\". Il semble que cela soit lié à l\'ajustement de la vitesse d\'horloge. Je ne connais pas plus de détails.</string>
+    <string name="help_msg">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, pour l\'overclocking et l\'undervolting :
         &#10;&#10;Série Snapdragon 6 :&#10;
         &#8226; Snapdragon 690&#10;&#10;
         Série Snapdragon 7 :&#10;
@@ -92,8 +92,8 @@
         &#8226; Snapdragon 8+ Gen 1&#10;
         &#8226; Snapdragon 8 Gen 2&#10;
         &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour accéder à la page des paramètres et cliquez sur « Fréquence » en haut pour la modifier selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l'enregistrement a bien été effectué.\nEnsuite, vous pouvez cliquer sur « Modifier la table de tensions GPU ». À ce stade, les fréquences disponibles de toutes les tables de fréquences seront affichées. Si la fréquence spécifiée par la table de fréquences ne figure pas dans la table des tensions, le téléphone ne pourra pas démarrer. Cliquez ensuite sur « Nouveau » en haut, et la fréquence maximale sera copiée. Ensuite, cliquez sur la nouvelle fréquence pour entrer.\nCliquez sur « Fréquence » pour la modifier en fonction de la fréquence précédemment spécifiée lors de la modification de la table des fréquences. Ensuite, un niveau de tension approprié peut être sélectionné pour cette fréquence.\nCliquez à nouveau sur « Enregistrer ». Après l'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de tensions GPU » pour actualiser et vérifier. Vérifiez que l'enregistrement a bien été effectué.\nAprès avoir confirmé que tout est correct, flashez l'image et redémarrez le téléphone.\nEn un mot, assurez-vous que la fréquence dans la table des fréquences existe dans la table des tensions.</string>
-    <string name="help_msg_aio">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, comme l'overclocking et l'undervolting :
+        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour accéder à la page des paramètres et cliquez sur « Fréquence » en haut pour la modifier selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nEnsuite, vous pouvez cliquer sur « Modifier la table de tensions GPU ». À ce stade, les fréquences disponibles de toutes les tables de fréquences seront affichées. Si la fréquence spécifiée par la table de fréquences ne figure pas dans la table des tensions, le téléphone ne pourra pas démarrer. Cliquez ensuite sur « Nouveau » en haut, et la fréquence maximale sera copiée. Ensuite, cliquez sur la nouvelle fréquence pour entrer.\nCliquez sur « Fréquence » pour la modifier en fonction de la fréquence précédemment spécifiée lors de la modification de la table des fréquences. Ensuite, un niveau de tension approprié peut être sélectionné pour cette fréquence.\nCliquez à nouveau sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de tensions GPU » pour actualiser et vérifier. Vérifiez que l\'enregistrement a bien été effectué.\nAprès avoir confirmé que tout est correct, flashez l\'image et redémarrez le téléphone.\nEn un mot, assurez-vous que la fréquence dans la table des fréquences existe dans la table des tensions.</string>
+    <string name="help_msg_aio">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, comme l\'overclocking et l\'undervolting :
         &#10;&#10;Série Snapdragon 6 :&#10;
         &#8226; Snapdragon 690&#10;&#10;
         Série Snapdragon 7 :&#10;
@@ -112,7 +112,7 @@
         &#8226; Snapdragon 8+ Gen 1&#10;
         &#8226; Snapdragon 8 Gen 2&#10;
         &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour entrer les paramètres, puis modifiez la fréquence et la tension selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l'enregistrement a bien été effectué.\nAprès avoir vérifié que tout est correct, flashez l'image et redémarrez le téléphone.</string>
+        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour entrer les paramètres, puis modifiez la fréquence et la tension selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nAprès avoir vérifié que tout est correct, flashez l\'image et redémarrez le téléphone.</string>
     <string name="sdm865_series">Série Snapdragon 865</string>
     <string name="sdm855_series">Série Snapdragon 855</string>
     <string name="unknown">Inconnu</string>
@@ -121,19 +121,19 @@
     <string name="confirm">Confirmer</string>
     <string name="input_introduction_here">Saisissez le résumé du profil ici</string>
     <string name="export_data">Exporter les données</string>
-    <string name="export_data_msg">Vous pouvez personnaliser le résumé des données, et le texte sera présenté lors de l'importation des données</string>
+    <string name="export_data_msg">Vous pouvez personnaliser le résumé des données, et le texte sera présenté lors de l\'importation des données</string>
     <string name="export_done">Exportation terminée</string>
     <string name="export_done_msg">Voici les données exportées</string>
     <string name="success_export_to">Exportation réussie vers</string>
-    <string name="failed_export">Échec de l'exportation</string>
-    <string name="going_import">Préparation de l'importation des données</string>
+    <string name="failed_export">Échec de l\'exportation</string>
+    <string name="going_import">Préparation de l\'importation des données</string>
     <string name="compatible_chip">"Processeur compatible : "</string>
     <string name="success_import">Importation réussie</string>
-    <string name="failed_incompatible">Échec de l'importation -- processeur incompatible</string>
-    <string name="failed_decoding">Échec de l'importation -- impossible de décoder les données</string>
-    <string name="unable_get_target_file">Impossible d'obtenir le fichier cible</string>
+    <string name="failed_incompatible">Échec de l\'importation -- processeur incompatible</string>
+    <string name="failed_decoding">Échec de l\'importation -- impossible de décoder les données</string>
+    <string name="unable_get_target_file">Impossible d\'obtenir le fichier cible</string>
     <string name="import_from_file">Importer depuis un fichier</string>
-    <string name="import_from_file_msg">Importer les données de fréquences et de tensions à partir d'un fichier</string>
+    <string name="import_from_file_msg">Importer les données de fréquences et de tensions à partir d\'un fichier</string>
     <string name="export_to_file">Exporter vers un fichier</string>
     <string name="export_to_file_msg">Exporter les données actuelles de fréquences et de tensions vers un fichier</string>
     <string name="import_from_clipboard">Importer depuis le presse-papiers</string>
@@ -141,9 +141,9 @@
     <string name="export_to_clipboard">Exporter vers le presse-papiers</string>
     <string name="export_to_clipboard_msg">Exporter les données actuelles de fréquences et de tensions vers le presse-papiers</string>
     <string name="wait_importing">Importation des données. Veuillez patienter.</string>
-    <string name="prepare_import_export">Préparation à l'importation et à l'exportation</string>
+    <string name="prepare_import_export">Préparation à l\'importation et à l\'exportation</string>
     <string name="failed_getting_freq_voltage">Échec lors de la récupération des données de fréquences et de tensions</string>
-    <string name="checking_device">Vérification des informations de l'appareil. Veuillez patienter.</string>
+    <string name="checking_device">Vérification des informations de l\'appareil. Veuillez patienter.</string>
     <string name="select_dtb_title">Sélectionnez le processeur cible</string>
     <string name="select_dtb_msg">Il y a plusieurs données de processeurs dans votre appareil. Vous devez en sélectionner une pour la modifier.</string>
     <string name="lito_v1_series">Série Snapdragon 765 v1</string>
