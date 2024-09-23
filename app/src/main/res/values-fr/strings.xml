@@ -74,45 +74,45 @@
     <string name="help_bus">Il s\'agit probablement d\'une configuration liée à la fréquence du bus mémoire correspondant à la fréquence du GPU. La valeur spécifie le niveau de fréquence.\nVeuillez ne pas modifier la valeur de manière excessive (au-delà du niveau donné par la fréquence maximale par défaut), ce qui pourrait entraîner une impossibilité de trouver le niveau spécifié et un échec de démarrage de l\'appareil.</string>
     <string name="help_acd">ACD pourrait signifier \"auto-calibrating dynamically adaptive clock distribution\". Il semble que cela soit lié à l\'ajustement de la vitesse d\'horloge. Je ne connais pas plus de détails.</string>
     <string name="help_msg">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, pour l\'overclocking et l\'undervolting :
-        &#10;&#10;Série Snapdragon 6 :&#10;
-        &#8226; Snapdragon 690&#10;&#10;
-        Série Snapdragon 7 :&#10;
-        &#8226; Snapdragon 750&#10;
-        &#8226; Snapdragon 765&#10;
-        &#8226; Snapdragon 778G&#10;
-        &#8226; Snapdragon 780G&#10;
-        &#8226; Snapdragon 7 Gen 1&#10;
-        &#8226; Snapdragon 7+ Gen 2&#10;
-        &#8226; Snapdragon 7+ Gen 3&#10;&#10;
-        Série Snapdragon 8 :&#10;
-        &#8226; Snapdragon 855&#10;
-        &#8226; Snapdragon 865&#10;
-        &#8226; Snapdragon 888&#10;
-        &#8226; Snapdragon 8 Gen 1&#10;
-        &#8226; Snapdragon 8+ Gen 1&#10;
-        &#8226; Snapdragon 8 Gen 2&#10;
-        &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour accéder à la page des paramètres et cliquez sur « Fréquence » en haut pour la modifier selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nEnsuite, vous pouvez cliquer sur « Modifier la table de tensions GPU ». À ce stade, les fréquences disponibles de toutes les tables de fréquences seront affichées. Si la fréquence spécifiée par la table de fréquences ne figure pas dans la table des tensions, le téléphone ne pourra pas démarrer. Cliquez ensuite sur « Nouveau » en haut, et la fréquence maximale sera copiée. Ensuite, cliquez sur la nouvelle fréquence pour entrer.\nCliquez sur « Fréquence » pour la modifier en fonction de la fréquence précédemment spécifiée lors de la modification de la table des fréquences. Ensuite, un niveau de tension approprié peut être sélectionné pour cette fréquence.\nCliquez à nouveau sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de tensions GPU » pour actualiser et vérifier. Vérifiez que l\'enregistrement a bien été effectué.\nAprès avoir confirmé que tout est correct, flashez l\'image et redémarrez le téléphone.\nEn un mot, assurez-vous que la fréquence dans la table des fréquences existe dans la table des tensions.</string>
+        \n\nSérie Snapdragon 6 :\n
+        &#8226; Snapdragon 690\n\n
+        Série Snapdragon 7 :\n
+        &#8226; Snapdragon 750\n
+        &#8226; Snapdragon 765\n
+        &#8226; Snapdragon 778G\n
+        &#8226; Snapdragon 780G\n
+        &#8226; Snapdragon 7 Gen 1\n
+        &#8226; Snapdragon 7+ Gen 2\n
+        &#8226; Snapdragon 7+ Gen 3\n\n
+        Série Snapdragon 8 :\n
+        &#8226; Snapdragon 855\n
+        &#8226; Snapdragon 865\n
+        &#8226; Snapdragon 888\n
+        &#8226; Snapdragon 8 Gen 1\n
+        &#8226; Snapdragon 8+ Gen 1\n
+        &#8226; Snapdragon 8 Gen 2\n
+        &#8226; Snapdragon 8 Gen 3\n
+        &#8226; Snapdragon 8s Gen 3\n\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour accéder à la page des paramètres et cliquez sur « Fréquence » en haut pour la modifier selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nEnsuite, vous pouvez cliquer sur « Modifier la table de tensions GPU ». À ce stade, les fréquences disponibles de toutes les tables de fréquences seront affichées. Si la fréquence spécifiée par la table de fréquences ne figure pas dans la table des tensions, le téléphone ne pourra pas démarrer. Cliquez ensuite sur « Nouveau » en haut, et la fréquence maximale sera copiée. Ensuite, cliquez sur la nouvelle fréquence pour entrer.\nCliquez sur « Fréquence » pour la modifier en fonction de la fréquence précédemment spécifiée lors de la modification de la table des fréquences. Ensuite, un niveau de tension approprié peut être sélectionné pour cette fréquence.\nCliquez à nouveau sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de tensions GPU » pour actualiser et vérifier. Vérifiez que l\'enregistrement a bien été effectué.\nAprès avoir confirmé que tout est correct, flashez l\'image et redémarrez le téléphone.\nEn un mot, assurez-vous que la fréquence dans la table des fréquences existe dans la table des tensions.</string>
     <string name="help_msg_aio">Bienvenue !\nGrâce à cet outil, vous pouvez librement modifier la table des fréquences GPU et la table des tensions des processeurs suivants, comme l\'overclocking et l\'undervolting :
-        &#10;&#10;Série Snapdragon 6 :&#10;
-        &#8226; Snapdragon 690&#10;&#10;
-        Série Snapdragon 7 :&#10;
-        &#8226; Snapdragon 750&#10;
-        &#8226; Snapdragon 765&#10;
-        &#8226; Snapdragon 778G&#10;
-        &#8226; Snapdragon 780G&#10;
-        &#8226; Snapdragon 7 Gen 1&#10;
-        &#8226; Snapdragon 7+ Gen 2&#10;
-        &#8226; Snapdragon 7+ Gen 3&#10;&#10;
-        Série Snapdragon 8 :&#10;
-        &#8226; Snapdragon 855&#10;
-        &#8226; Snapdragon 865&#10;
-        &#8226; Snapdragon 888&#10;
-        &#8226; Snapdragon 8 Gen 1&#10;
-        &#8226; Snapdragon 8+ Gen 1&#10;
-        &#8226; Snapdragon 8 Gen 2&#10;
-        &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour entrer les paramètres, puis modifiez la fréquence et la tension selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nAprès avoir vérifié que tout est correct, flashez l\'image et redémarrez le téléphone.</string>
+        \n\nSérie Snapdragon 6 :\n
+        &#8226; Snapdragon 690\n\n
+        Série Snapdragon 7 :\n
+        &#8226; Snapdragon 750\n
+        &#8226; Snapdragon 765\n
+        &#8226; Snapdragon 778G\n
+        &#8226; Snapdragon 780G\n
+        &#8226; Snapdragon 7 Gen 1\n
+        &#8226; Snapdragon 7+ Gen 2\n
+        &#8226; Snapdragon 7+ Gen 3\n\n
+        Série Snapdragon 8 :\n
+        &#8226; Snapdragon 855\n
+        &#8226; Snapdragon 865\n
+        &#8226; Snapdragon 888\n
+        &#8226; Snapdragon 8 Gen 1\n
+        &#8226; Snapdragon 8+ Gen 1\n
+        &#8226; Snapdragon 8 Gen 2\n
+        &#8226; Snapdragon 8 Gen 3\n
+        &#8226; Snapdragon 8s Gen 3\n\nVoici un exemple pour illustrer comment overclocker son processeur : Tout d\'abord, cliquez sur « Modifier la table de fréquences GPU », et cela affichera les tables de fréquences dans l\'appareil. Il peut y avoir plusieurs tables de fréquences dans un appareil. J\'ai annoté les tables de fréquences, mais cela peut ne pas être exact. Veuillez donc déterminer quelle table de fréquences votre appareil utilise selon les logiciels de réglage de fréquences GPU.\nCliquez sur une table de fréquences pour afficher toutes les fréquences qu\'elle contient, puis cliquez sur « Nouveau » en haut pour copier la fréquence maximale. Ensuite, cliquez sur la nouvelle fréquence copiée pour entrer les paramètres, puis modifiez la fréquence et la tension selon vos besoins.\nAprès modification, cliquez sur « Enregistrer ». Après l\'enregistrement, vous pouvez cliquer à nouveau sur « Modifier la table de fréquences GPU » pour actualiser et vérifier que l\'enregistrement a bien été effectué.\nAprès avoir vérifié que tout est correct, flashez l\'image et redémarrez le téléphone.</string>
     <string name="sdm865_series">Série Snapdragon 865</string>
     <string name="sdm855_series">Série Snapdragon 855</string>
     <string name="unknown">Inconnu</string>

@@ -49,45 +49,45 @@
     <string name="help_gpufreq">Dies ist die Arbeitsfrequenz der GPU. Du kannst die verfügbaren Frequenzen in der Frequenztabelle ändern, indem du diesen Wert enderst.\nDu musst jedoch sicherstellen, dass die Frequenz die entsprechende Spannung in der Spannungstabelle finden kann, da es sonst unmöglich ist, das Telefon zu starten.\nDie Einheit der Frequenz ist hier Hz, das heisst, füge 6 Nullen nach der MHz-Frequenz hinzu. Du kannst die Frequenz in MHz im vorherigen Menü anzeigen lassen. Wenn dun nicht weisst, wie viele Nullen du hinzufügen musst, empfiehlt es sich, nur die ersten Ziffern der Zahl zu ändern.\n</string>
     <string name="help_gpufreq_aio">Dies ist die Arbeitsfrequenz der GPU. Du kannst die verfügbaren Frequenzen in der Frequenztabelle ändern, indem du diesen Wert änderst.\nDie Einheit der Frequenz ist hier Hz, d. h., füge 6 Nullen nach der MHz-Frequenz hinzu. SDu kannst die Frequenz in MHz auf der vorherigen Seite anzeigen lassen.\nWenn du nicht weisst, wie viele Nullen du hinzufügen musst, empfiehlt es sich, nur die ersten paar Ziffern der Zahl zu ändern.</string>
     <string name="help_msg">Mit diesem Tool kannst du die GPU-Frequenztabelle und die Spannungstabelle der folgenden Prozessoren frei bearbeiten, z. B. übertakten oder untertakten:
-        &#10;&#10;Snapdragon 6 series:&#10;
-        &#8226; Snapdragon 690&#10;&#10;
-        Snapdragon 7 series:&#10;
-        &#8226; Snapdragon 750&#10;
-        &#8226; Snapdragon 765&#10;
-        &#8226; Snapdragon 778G&#10;
-        &#8226; Snapdragon 780G&#10;
-        &#8226; Snapdragon 7 Gen 1&#10;
-        &#8226; Snapdragon 7+ Gen 2&#10;
-        &#8226; Snapdragon 7+ Gen 3&#10;&#10;
-        Snapdragon 8 series:&#10;
-        &#8226; Snapdragon 855&#10;
-        &#8226; Snapdragon 865&#10;
-        &#8226; Snapdragon 888&#10;
-        &#8226; Snapdragon 8 Gen 1&#10;
-        &#8226; Snapdragon 8+ Gen 1&#10;
-        &#8226; Snapdragon 8 Gen 2&#10;
-        &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\Nachfolgend findest du ein Beispiel für die Übertaktung: Tippe zunächst auf \"GPU-FreqTabelle bearbeiten\", um die Freq-Tabellen im Gerät anzuzeigen. Es kann mehrere Freq-Tabellen in einem Geret geben. Ich habe die Freq-Tabellen mit Anmerkungen versehen, aber sie sind möglicherweise nicht genau. Bitte beurteile daher, welche Freq-Tabelle dein Gerät verwendet, indem du die Freq-Tabelle in verschiedenen GPU-Frequenzanpassungssoftwares verwendest.\nTippe auf eine Frequ-Tabelle, um alle darin enthaltenen Frequenzen anzuzeigen und tippe dann oben auf \"Neu\", um die maximale Frequenz zu kopieren. Tippe dann auf die kopierte neue Frequenz, um die Seite für die Parametereinstellung aufzurufen und tippe dann oben auf \"Frequenz\", um sie entsprechend den Anforderungen zu ändern.\Nach derAenderung auf \"Speichern\" tippen. Nach dem Speichern kannst du erneut auf \"GPU-Freq-Tabelle bearbeiten\" tippen, um die Ansicht zu aktualisieren und zu bestätigen, dass die Speicherung erfolgreich war.\n Und dann kannst du auf \"GPU-Volttabelle bearbeiten\" tippen. Zu diesem Zeitpunkt werden die verfügbaren Frequenzen aller Freq-Tabellen angezeigt. Wenn die in der Freq-Tabelle angegebene Frequenz nicht in der Spannungstabelle enthalten ist, kann das Telefon zwangsläufig nicht booten. Tippe dann oben auf \"Neu\" und die maximale Frequenz wird kopiert. Tippe dann auf die neue Frequenz, um sie einzugeben.\nTippe auf \"Frequenz\", um sie in die Frequenz zu ändern, die zuvor beim Bearbeiten der Freq-Tabelle festgelegt wurde. Anschliessend kann ein geeigneter Spannungspegel für diese Frequenz ausgewählt werden. \nKlicken Sie erneut auf \"Speichern\". Nach dem Speichern kannst du erneut auf \"GPU-Volt-Tabelle bearbeiten\" tippen, um die Ansicht zu aktualisieren. Bestätige, dass das Speichern erfolgreich war.\nNachdem du bestätigt hast, dass alles in Ordnung ist, flasht du das Image und startest das Telefon neu.\nIn einem Wort, stelle bitte sicher, dass die Frequenz in der Freq-Tabelle in der Spannungstabelle existiert.</string>
+        \n\nSnapdragon 6 series:\n
+        &#8226; Snapdragon 690\n\n
+        Snapdragon 7 series:\n
+        &#8226; Snapdragon 750\n
+        &#8226; Snapdragon 765\n
+        &#8226; Snapdragon 778G\n
+        &#8226; Snapdragon 780G\n
+        &#8226; Snapdragon 7 Gen 1\n
+        &#8226; Snapdragon 7+ Gen 2\n
+        &#8226; Snapdragon 7+ Gen 3\n\n
+        Snapdragon 8 series:\n
+        &#8226; Snapdragon 855\n
+        &#8226; Snapdragon 865\n
+        &#8226; Snapdragon 888\n
+        &#8226; Snapdragon 8 Gen 1\n
+        &#8226; Snapdragon 8+ Gen 1\n
+        &#8226; Snapdragon 8 Gen 2\n
+        &#8226; Snapdragon 8 Gen 3\n
+        &#8226; Snapdragon 8s Gen 3\n\Nachfolgend findest du ein Beispiel für die Übertaktung: Tippe zunächst auf \"GPU-FreqTabelle bearbeiten\", um die Freq-Tabellen im Gerät anzuzeigen. Es kann mehrere Freq-Tabellen in einem Geret geben. Ich habe die Freq-Tabellen mit Anmerkungen versehen, aber sie sind möglicherweise nicht genau. Bitte beurteile daher, welche Freq-Tabelle dein Gerät verwendet, indem du die Freq-Tabelle in verschiedenen GPU-Frequenzanpassungssoftwares verwendest.\nTippe auf eine Frequ-Tabelle, um alle darin enthaltenen Frequenzen anzuzeigen und tippe dann oben auf \"Neu\", um die maximale Frequenz zu kopieren. Tippe dann auf die kopierte neue Frequenz, um die Seite für die Parametereinstellung aufzurufen und tippe dann oben auf \"Frequenz\", um sie entsprechend den Anforderungen zu ändern.\Nach derAenderung auf \"Speichern\" tippen. Nach dem Speichern kannst du erneut auf \"GPU-Freq-Tabelle bearbeiten\" tippen, um die Ansicht zu aktualisieren und zu bestätigen, dass die Speicherung erfolgreich war.\n Und dann kannst du auf \"GPU-Volttabelle bearbeiten\" tippen. Zu diesem Zeitpunkt werden die verfügbaren Frequenzen aller Freq-Tabellen angezeigt. Wenn die in der Freq-Tabelle angegebene Frequenz nicht in der Spannungstabelle enthalten ist, kann das Telefon zwangsläufig nicht booten. Tippe dann oben auf \"Neu\" und die maximale Frequenz wird kopiert. Tippe dann auf die neue Frequenz, um sie einzugeben.\nTippe auf \"Frequenz\", um sie in die Frequenz zu ändern, die zuvor beim Bearbeiten der Freq-Tabelle festgelegt wurde. Anschliessend kann ein geeigneter Spannungspegel für diese Frequenz ausgewählt werden. \nKlicken Sie erneut auf \"Speichern\". Nach dem Speichern kannst du erneut auf \"GPU-Volt-Tabelle bearbeiten\" tippen, um die Ansicht zu aktualisieren. Bestätige, dass das Speichern erfolgreich war.\nNachdem du bestätigt hast, dass alles in Ordnung ist, flasht du das Image und startest das Telefon neu.\nIn einem Wort, stelle bitte sicher, dass die Frequenz in der Freq-Tabelle in der Spannungstabelle existiert.</string>
     <string name="help_msg_aio">Mit diesem Tool kannst du die GPU-Frequenztabelle und die Spannungstabelle der folgenden Prozessoren frei bearbeiten, z. B. übertakten oder untertakten:
-        &#10;&#10;Snapdragon 6 series:&#10;
-        &#8226; Snapdragon 690&#10;&#10;
-        Snapdragon 7 series:&#10;
-        &#8226; Snapdragon 750&#10;
-        &#8226; Snapdragon 765&#10;
-        &#8226; Snapdragon 778G&#10;
-        &#8226; Snapdragon 780G&#10;
-        &#8226; Snapdragon 7 Gen 1&#10;
-        &#8226; Snapdragon 7+ Gen 2&#10;
-        &#8226; Snapdragon 7+ Gen 3&#10;&#10;
-        Snapdragon 8 series:&#10;
-        &#8226; Snapdragon 855&#10;
-        &#8226; Snapdragon 865&#10;
-        &#8226; Snapdragon 888&#10;
-        &#8226; Snapdragon 8 Gen 1&#10;
-        &#8226; Snapdragon 8+ Gen 1&#10;
-        &#8226; Snapdragon 8 Gen 2&#10;
-        &#8226; Snapdragon 8 Gen 3&#10;
-        &#8226; Snapdragon 8s Gen 3&#10;\Nachfolgend findest du ein Beispiel für die Übertaktung: Klicken Sie zunächst auf \"GPU-Frequenztabelle bearbeiten\", um die Frequenztabellen im Gerät anzuzeigen. Es kann mehrere Frequenztabellen in einem Gerät geben. Ich habe die Frequenztabellen mit Anmerkungen versehen, aber sie sind möglicherweise nicht genau. Beurteilen Sie also bitte, welche Frequenztabelle Ihr Gerät verwendet, indem Sie die Frequenztabelle in verschiedenen GPU-Frequenzanpassungssoftwares betrachten.\nKlicken Sie auf eine Frequenztabelle, um alle darin enthaltenen Frequenzen anzuzeigen, und klicken Sie dann oben auf "Neu", um die maximale Frequenz zu kopieren. Klicken Sie dann auf die kopierte neue Frequenz, um die Parametereinstellungsseite aufzurufen, und bearbeiten Sie dann die Frequenz und Spannung entsprechend den Anforderungen.\Nach der Aenderung klicken Sie auf "Speichern". Nach dem Speichern können Sie erneut auf \"GPU-Frequenztabelle bearbeiten\" klicken, um die Ansicht zu aktualisieren und zu bestätigen, dass die Speicherung erfolgreich war.\nNachdem Sie bestetigt haben, dass alles in Ordnung ist, flashen Sie das Image und starten Sie das Telefon neu.</string>
+        \n\nSnapdragon 6 series:\n
+        &#8226; Snapdragon 690\n\n
+        Snapdragon 7 series:\n
+        &#8226; Snapdragon 750\n
+        &#8226; Snapdragon 765\n
+        &#8226; Snapdragon 778G\n
+        &#8226; Snapdragon 780G\n
+        &#8226; Snapdragon 7 Gen 1\n
+        &#8226; Snapdragon 7+ Gen 2\n
+        &#8226; Snapdragon 7+ Gen 3\n\n
+        Snapdragon 8 series:\n
+        &#8226; Snapdragon 855\n
+        &#8226; Snapdragon 865\n
+        &#8226; Snapdragon 888\n
+        &#8226; Snapdragon 8 Gen 1\n
+        &#8226; Snapdragon 8+ Gen 1\n
+        &#8226; Snapdragon 8 Gen 2\n
+        &#8226; Snapdragon 8 Gen 3\n
+        &#8226; Snapdragon 8s Gen 3\n\Nachfolgend findest du ein Beispiel für die Übertaktung: Klicken Sie zunächst auf \"GPU-Frequenztabelle bearbeiten\", um die Frequenztabellen im Gerät anzuzeigen. Es kann mehrere Frequenztabellen in einem Gerät geben. Ich habe die Frequenztabellen mit Anmerkungen versehen, aber sie sind möglicherweise nicht genau. Beurteilen Sie also bitte, welche Frequenztabelle Ihr Gerät verwendet, indem Sie die Frequenztabelle in verschiedenen GPU-Frequenzanpassungssoftwares betrachten.\nKlicken Sie auf eine Frequenztabelle, um alle darin enthaltenen Frequenzen anzuzeigen, und klicken Sie dann oben auf "Neu", um die maximale Frequenz zu kopieren. Klicken Sie dann auf die kopierte neue Frequenz, um die Parametereinstellungsseite aufzurufen, und bearbeiten Sie dann die Frequenz und Spannung entsprechend den Anforderungen.\Nach der Aenderung klicken Sie auf "Speichern". Nach dem Speichern können Sie erneut auf \"GPU-Frequenztabelle bearbeiten\" klicken, um die Ansicht zu aktualisieren und zu bestätigen, dass die Speicherung erfolgreich war.\nNachdem Sie bestetigt haben, dass alles in Ordnung ist, flashen Sie das Image und starten Sie das Telefon neu.</string>
     <string name="import_data">Import</string>
     <string name="import_export">Import/Export</string>
     <string name="import_from_clipboard">In Zwischenablage importieren</string>
