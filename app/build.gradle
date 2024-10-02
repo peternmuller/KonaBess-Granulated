@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "xzr.konabess"
         minSdkVersion 28
-        targetSdkVersion 28
+        targetSdkVersion 35
         versionCode 27
         versionName "0.24.1 GRANULATED"
     }
