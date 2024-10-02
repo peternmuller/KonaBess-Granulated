@@ -3,8 +3,8 @@ plugins {
 }
 
 android {
-    compileSdkVersion 35
-    buildToolsVersion "35.0.0"
+    compileSdk 35
+    buildToolsVersion = "35.0.0"
 
     androidResources {
         generateLocaleConfig true
