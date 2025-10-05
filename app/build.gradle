@@ -11,7 +11,7 @@ android {
         minSdkVersion 28
         targetSdkVersion 28
         versionCode 28
-        versionName "0.26 beta"
+        versionName "0.26 GRANULATED"
     }
 
     buildTypes {
